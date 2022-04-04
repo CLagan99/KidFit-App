@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA579A"
+    tools:context=".ActivityGirlCategoryList">
+
+    <TextView
+        android:id="@+id/txt_girl_category"
+        android:layout_width="367dp"
+        android:layout_height="102dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Choose a Category"
+        android:textColor="@color/black"
+        android:textSize="45dp" />
+
+    <ListView
+        android:id="@+id/lv_girl_category"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_menu"
+        android:layout_below="@id/txt_girl_category"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="13dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Menu"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#C8C1C1" />
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA579A"
+    tools:context=".HowToPlayGirlActivity">
+
+    <TextView
+        android:id="@+id/txt_how_to_title"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="How to Play KidFit?"
+        android:textColor="@color/black"
+        android:textSize="55dp" />
+
+    <TextView
+        android:id="@+id/txt_how_to_description"
+        android:layout_width="320dp"
+        android:layout_height="341dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="219dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/antic"
+        android:text="KidFit is a simple mobile app that aims to increase strength and fitness levels among children. To play the game... "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txt_how_to_description2"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="328dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:textStyle="italic"
+        android:text="•	Press the ‘Start’ button to play the game and select a ‘Category’ of your choice."
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_how_to_description3"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="416dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="•	Press the ‘Start Exercising’ button to start the activity."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_how_to_description4"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="•	Press the ‘Exercising Tutorials’ button to select an exercise you want more information on how to do it."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Menu"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#C8C1C1" />
+
+</RelativeLayout>

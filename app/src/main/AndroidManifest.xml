@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kidfit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidFit">
+        <activity android:name=".GirlDollHouseActivity"></activity>
+        <activity android:name=".GirlLolActivity" />
+        <activity android:name=".GirlFrozenActivity" />
+        <activity android:name=".GirlTeddyBearActivity" />
+        <activity android:name=".GirlBarbieActivity" />
+        <activity android:name=".BoyFortniteActivity" />
+        <activity android:name=".BoyMinecraftActivity" />
+        <activity android:name=".BoyLegoActivity" />
+        <activity android:name=".BoyHotWheelsActivity" />
+        <activity android:name=".BoyMarioActivity" />
+        <activity android:name=".GirlWalkingActivity" />
+        <activity android:name=".BoyWalkingActivity" />
+        <activity android:name=".BoyFootballActivity" />
+        <activity android:name=".GirlWalkingCategory" />
+        <activity android:name=".BoyWalkingCategory" />
+        <activity android:name=".GirlSquats" />
+        <activity android:name=".GirlLunges" />
+        <activity android:name=".BoySquats" />
+        <activity android:name=".BoyLunges" />
+        <activity android:name=".GirlArmsOverHead" />
+        <activity android:name=".BoyArmsOverHead" />
+        <activity android:name=".GirlSkipping" />
+        <activity android:name=".BoySkipping" />
+        <activity android:name=".GirlPressUps" />
+        <activity android:name=".BoyPressUps" />
+        <activity android:name=".GirlSitUps" />
+        <activity android:name=".BoySitUps" />
+        <activity android:name=".GirlJumpingJacks" />
+        <activity android:name=".DollHouseCategory" />
+        <activity android:name=".LolCategory" />
+        <activity android:name=".TeddyBearCategory" />
+        <activity android:name=".MinecraftCategory" />
+        <activity android:name=".LegoCategory" />
+        <activity android:name=".HotWheelsCategory" />
+        <activity android:name=".FortniteCategory" />
+        <activity android:name=".FrozenCategory" />
+        <activity android:name=".BoyJumpingJacks" />
+        <activity android:name=".MarioCategory" />
+        <activity android:name=".BarbieCategory" />
+        <activity android:name=".FootballCategory" />
+        <activity android:name=".AboutUsGirlActivity" />
+        <activity android:name=".AboutUsBoyActivity" />
+        <activity android:name=".GirlExerciseTutorialsActivity" />
+        <activity android:name=".BoyExerciseTutorialsActivity" />
+        <activity android:name=".HowToPlayGirlActivity" />
+        <activity android:name=".HowToPlayBoyActivity" />
+        <activity android:name=".ActivityGirlCategoryList" />
+        <activity android:name=".ActivityBoyCategoryList" />
+        <activity android:name=".GirlHomeActivity" />
+        <activity android:name=".BoyHomeActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

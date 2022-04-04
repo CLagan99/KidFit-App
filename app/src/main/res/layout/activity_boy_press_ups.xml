@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BC5D3"
+    tools:context=".BoyPressUps">
+
+    <TextView
+        android:id="@+id/txt_exercise_title"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/bangers"
+        android:text="Press Ups"
+        android:gravity="center"
+        android:textSize="65sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_tutorial"
+        android:layout_width="313dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        app:srcCompat="@drawable/press_ups_tutorial" />
+
+    <TextView
+        android:id="@+id/txt_pu_description"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="1. Begin with your chest and stomach flat on the floor. Your legs should be straight and your palms should be at chest level with the arms bent at 45-degrees."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_pu_description2"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="421dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="2. Exhale as you push from your hands and heels, bringing your torso, chest, and thighs off the ground. "
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_pu_description3"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="506dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="3. Pause for a second in the plank position."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_pu_description4"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="559dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="4. Inhale as you slowly lower back to your starting position."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Exercises"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3CCCC" />
+
+</RelativeLayout>

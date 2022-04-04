@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5BC5D3"
+    tools:context=".BoyWalkingCategory">
+
+    <TextView
+        android:id="@+id/txt_category_title"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Just Keep Walking"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="150dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@drawable/boy_walking" />
+
+    <TextView
+        android:id="@+id/txt_category_desc"
+        android:layout_width="395dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="303dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="To complete this challenge, you will need to do the following:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_exercise1"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="258dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="Walk 250 Steps"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_start_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginBottom="113dp"
+        android:fontFamily="@font/bangers"
+        android:text="Start Exercising"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3CCCC" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Categories"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3CCCC" />
+
+</RelativeLayout>

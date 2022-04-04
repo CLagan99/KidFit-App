@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA579A"
+    tools:context=".GirlSquats">
+
+    <TextView
+        android:id="@+id/txt_exercise_title"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/bangers"
+        android:text="Squats"
+        android:gravity="center"
+        android:textSize="55sp"
+        android:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/iv_tutorial"
+        android:layout_width="199dp"
+        android:layout_height="174dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        app:srcCompat="@drawable/squat_tutorial" />
+
+    <TextView
+        android:id="@+id/txt_sq_description"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="1. Stand straight with feet hip-width apart."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sq_description2"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="367dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="2. Tighten your stomach muscles."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sq_description3"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="428dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="3. Lower down, as if sitting in an invisible chair."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sq_description4"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="488dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="4. Straighten your legs to lift back up."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sq_description5"
+        android:layout_width="383dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="523dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="5. Repeat the movement."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Exercises"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3CCCC" />
+
+</RelativeLayout>

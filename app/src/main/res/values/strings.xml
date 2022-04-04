@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KidFit</string>
+
+    <string-array name="age_group">
+        <item>Choose an Age Group</item>
+        <item>3-4 Years</item>
+        <item>5-6 Years</item>
+        <item>7-8 Years</item>
+        <item>9-10 Years</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Choose a Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

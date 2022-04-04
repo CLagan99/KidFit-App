@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA579A"
+    tools:context=".GirlSkipping">
+
+    <TextView
+        android:id="@+id/txt_exercise_title"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Skipping"
+        android:textColor="@android:color/black"
+        android:textSize="65sp" />
+
+    <ImageView
+        android:id="@+id/iv_tutorial"
+        android:layout_width="313dp"
+        android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        app:srcCompat="@drawable/skipping_tutorial" />
+
+    <TextView
+        android:id="@+id/txt_sk_description"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="299dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="1. Grab a handle in each hand and start with the rope behind you. "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sk_description2"
+        android:layout_width="381dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="348dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="2. To get the rope moving, gently rotate your forearms forward and then your wrists to generate momentum and swing it overhead."
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sk_description3"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="433dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="3. As the rope swings up overhead, bend your knees slightly. Once you see the rope pass your shins, jump by springing from your toes. "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sk_description4"
+        android:layout_width="387dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="499dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="4. Once you're at a comfortable speed, your wrists can do all the work."
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_sk_description5"
+        android:layout_width="383dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="556dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center_vertical"
+        android:text="5. As you hop, be sure to stay on the balls of your feet. This keeps you quick and nimble. "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginBottom="46dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Exercises"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3CCCC" />
+
+</RelativeLayout>

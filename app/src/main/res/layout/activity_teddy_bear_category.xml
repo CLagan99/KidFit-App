@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DA579A"
+    tools:context=".TeddyBearCategory">
+
+    <TextView
+        android:id="@+id/txt_category_title"
+        android:layout_width="349dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="Teddy Bear Category"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="159dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        app:srcCompat="@drawable/teddy_bear_trophy" />
+
+    <TextView
+        android:id="@+id/txt_category_desc"
+        android:layout_width="395dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="303dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="To complete this challenge, you will have 2 minutes to do the following:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_exercise1"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="312dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="25 Skipping"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_exercise2"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="262dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="10 Squats"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_exercise3"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:fontFamily="@font/antic"
+        android:gravity="center"
+        android:text="20 Arms over Head"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_start_exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginBottom="113dp"
+        android:fontFamily="@font/bangers"
+        android:text="Start Exercising"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:backgroundTint="#D3CCCC" />
+
+    <Button
+        android:id="@+id/btn_go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginBottom="49dp"
+        android:fontFamily="@font/bangers"
+        android:text="Go Back to Categories"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:backgroundTint="#D3CCCC" />
+
+</RelativeLayout>
